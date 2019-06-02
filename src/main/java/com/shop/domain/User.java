@@ -1,5 +1,7 @@
 package com.shop.domain;
 
+import java.util.List;
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
@@ -19,5 +21,11 @@ public class User {
 	private String username;
 
 	private String password;
+
+	private String lastName;
+
+	private String email;
+
+	private List<String> roles;
 
 }
