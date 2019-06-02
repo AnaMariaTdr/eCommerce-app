@@ -1,8 +1,8 @@
 package com.shop.service;
 
 import com.shop.domain.User;
+import com.shop.domain.model.response.UserDto;
 import com.shop.exceptions.EmailExistsException;
-import com.shop.security.UserDto;
 
 public interface IUserService {
 	

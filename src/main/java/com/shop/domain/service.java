@@ -1,6 +1,6 @@
 package com.shop.domain;
 
-import com.shop.security.UserDto;
+import com.shop.domain.model.response.UserDto;
 
 public class service {
 

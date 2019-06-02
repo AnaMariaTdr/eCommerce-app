@@ -1,8 +1,11 @@
-package com.shop.security;
+package com.shop.domain.model.response;
 
 import javax.validation.constraints.NotNull;
 
 import org.hibernate.validator.constraints.NotEmpty;
+
+import com.shop.security.PasswordMatches;
+import com.shop.security.ValidEmail;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
